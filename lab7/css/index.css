@@ -1,0 +1,33 @@
+body {
+    font-family: Futura, "san serif";
+    background-color: pink;
+    padding: 40px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: pink;
+    border: solid 1px #333333;
+    height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: "futura", monospace;
+}
+
+img {
+    float: left;
+    width: 300px;
+    height: auto;
+    padding-right: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
