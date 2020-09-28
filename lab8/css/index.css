@@ -1,0 +1,46 @@
+body {
+    font-family: Georgia, "serif";
+    background-color: #FFDAB9;
+    padding: 40px;
+    font-size: 120%;
+    font-style: italic;
+    color: #59212a;
+}
+
+div#content {
+    padding: 50px;
+    border: solid 1px #333333;
+    height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: Georgia;
+    font-style: normal;
+}
+
+img {
+    float: left;
+    width: 300px;
+    height: auto;
+    padding-right: 60px;
+    border-radius: 60%;
+}
+
+img:hover {
+  position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+a {
+    text-decoration: none;
+    color: #E4A199;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
