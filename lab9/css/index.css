@@ -1,0 +1,54 @@
+body {
+    font-family: Georgia;
+    background-color: #fadadd;
+    padding: 40px;
+    font-size: 120%;
+    font-style: italic;
+    color: #ffe6ee;
+}
+
+div#content {
+    padding: 100px;
+    margin: auto;
+    border: dashed 5px #b53737;
+    border-radius: 50px;
+    color: white;
+    background-color: #ffb6c1;
+}
+
+h1, h2, h3 {
+    font-family: Georgia;
+    font-style: normal;
+    color: #b53737;
+}
+
+img {
+    float: right;
+    width: 300px;
+    height: auto;
+    border: dashed 5px #b53737;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+img:hover {
+  position:relative;
+    top:-25px;
+    right:-35px;
+    width:350px;
+    height:auto;
+    display:block;
+    z-index:999;
+    border: dashed 5px white;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #b53737;
+    font-size: 150%;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ffb6c1;
+}
