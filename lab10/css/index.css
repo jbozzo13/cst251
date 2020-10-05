@@ -1,0 +1,46 @@
+body {
+    font-family: arial;
+    background-color: #fbf4ee;
+    padding: 20px;
+    font-size: 120%;
+    font-style: italic;
+    color: #ccbcac;
+    text-align: center;
+}
+
+div#content {
+    padding: 40px;
+    margin: auto;
+    border: dotted 5px #977951;
+    color: #977951;
+    background-color: #ffd6bf;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Sansita Swashed';
+    letter-spacing: 10px;
+    line-height: 70px;
+    color: #4f3112;
+    font-weight: bolder;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+a {
+    color: #6a4e42;
+    font-size: 100%;
+    font-weight: bolder;
+    text-align: center;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
