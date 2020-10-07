@@ -1,0 +1,57 @@
+body {
+    font-family: arial;
+    background-color: #fbf4ee;
+    padding: 20px;
+    font-size: 120%;
+    font-style: italic;
+    color: #ccbcac;
+    text-align: left;
+}
+
+main#content {
+    padding: 45px;
+    margin: auto;
+    border: dotted 5px #977951;
+    color: #6a4e42;
+    background-color: pink;
+    text-align: left;
+}
+
+aside#sidebar {
+  float: right;
+  position: sticky;
+  top: 0;
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  border: 3px dotted #990f02;
+  background-color: lightpink;
+}
+
+h1, h2, h3 {
+    font-family: 'Sansita Swashed';
+    line-height: 70px;
+    color: #990f02;
+    font-weight: bolder;
+    text-transform: lowercase;
+    text-align: left;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: dotted 5px;
+}
+
+a {
+    color: #6a4e42;
+    font-size: 100%;
+    font-weight: bolder;
+    text-align: center;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
