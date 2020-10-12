@@ -1,0 +1,88 @@
+body {
+    font-family: 'Raleway';
+    background-color: white;
+    padding: 20px;
+    font-size: 120%;
+    font-style: italic;
+    color: #ccbcac;
+    text-align: center;
+}
+
+main#content {
+    padding: 45px;
+    margin: auto;
+    border: dotted 5px #977951;
+    color: #6a4e42;
+    background-color: #fbf4ee;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Sacramento';
+    line-height: 70px;
+    color: #977951;
+    font-size: 50px;
+}
+
+
+div#floated {
+   width: 30%;
+   float: right;
+   border: dotted 3px;
+   padding: 40px;
+   margin-top: 100px;
+   margin-right: 20px;
+   height: 120px;
+   width: 120px;
+   background-color: #ffb7b0;
+   border-radius: 50%;
+   display: inline-block;
+}
+
+
+div#center-img {
+   margin: auto;
+   width: 30%;
+   padding: 10px;
+}
+
+
+div#center-horz {
+   width: 30%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   padding: 15px;
+}
+
+div#center-both {
+   width: 30%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+div#kk {
+  position: absolute;
+  left: 50px;
+  top: 800px;
+}
+
+div#cat {
+  position: absolute;
+  right: 60px;
+  top: 600px;
+}
+
+a {
+    color: #6a4e42;
+    font-size: 100%;
+    font-weight: bolder;
+    text-align: center;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
