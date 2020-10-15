@@ -1,0 +1,61 @@
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: white;
+    padding: 20px;
+    font-size: 120%;
+    text-align: center;
+}
+
+main#content {
+    padding: 45px;
+    margin: auto;
+    color: black;
+    background-color: #fbf4ee;
+    font-variant: small-caps;
+}
+
+
+h1, h2 {
+    font-family: 'Crimson Text', serif;
+    line-height: 55px;
+    color: rgb(209,112,130);
+    font-size: 50px;
+    font-weight: bolder;
+    font-variant: normal;
+    letter-spacing: 10px;
+}
+
+div#julia {
+  padding-top: 30px;
+  filter: hue-rotate(-10deg);
+  filter: drop-shadow(5px 1px 0.6rem grey);
+}
+
+
+div#babyflower {
+  position: absolute;
+  right: -200px;
+  top: 1000px;
+  opacity: .76;
+}
+
+div#pinkflower {
+  position: absolute;
+  left: -100px;
+  top: 1300px;
+  opacity: .76;
+}
+
+
+a {
+    color: grey;
+    font-family: 'Crimson Text', serif;
+    font-size: 100%;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 50px;
+}
+a:hover {
+    text-decoration: underline;
+    color: pink;
+}
