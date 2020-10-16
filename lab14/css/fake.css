@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(246,246,246);
+}
+
+h1 {
+  font-family: 'laca', sans-serif;
+  font-variant: small-caps;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(60,60,60);
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+h4 {
+  font-family: 'laca', sans-serif;
+  font-variant: small-caps;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(60,60,60);
+    position: absolute;
+    top: -25px;
+    left: 450px;
+}
+
+h5 {
+  font-family: 'laca', sans-serif;
+  font-variant: small-caps;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(60,60,60);
+    position: absolute;
+    top: -30px;
+    right: 20px;
+}
+
+h2 {
+    font-family: 'laca', sans-serif;
+    font-variant: small-caps;
+    line-height: 90px;
+    font-size: 110px;
+    font-weight: lighter;
+    color: rgb(60,60,60);
+    position: absolute;
+    top: 100px;
+    left: 170px;
+
+}
+
+h3 {
+    font-family: 'ambroise-std', serif;
+    font-style: italic;
+    line-height: 90px;
+    font-size: 90px;
+    font-weight: lighter;
+    color: rgb(60,60,60);
+    position: absolute;
+    top: 180px;
+    right: 230px;
+    letter-spacing: -4px;
+
+}
+
+p {
+    font-family: 'ambroise-std', serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgb(120,120,120);
+    position: absolute;
+    top: 150px;
+    right: 250px;
+}
+
+div#art {
+  position: absolute;
+  top: 0px;
+  left: 200px;
+
+}
+
+div#chair {
+  position: absolute;
+  top: 150px;
+  right: 10px;
+
+}
+
+div#couch {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  z-index: -1;
+
+}
+
+div#green {
+  position: absolute;
+  top: 430px;
+  left: 550px;
+
+}
+
+div#tan {
+  position: absolute;
+  top: 120px;
+  left: 150px;
+
+}
+
+div#grey {
+  position: absolute;
+  top: 350px;
+  right: 60px;
+
+}
