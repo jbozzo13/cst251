@@ -1,0 +1,83 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/lemon-slice.jpg);
+    background-size: cover;
+    padding: 20px;
+    font-size: 120%;
+    color: #ccbcac;
+    text-align: center;
+}
+
+main#content {
+    padding: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    color: grey;
+    background-color: #fbfbf8;
+    font-style: oblique;
+    filter: drop-shadow(8px 8px 10px gray);
+    border: dashed 10px;
+    border-color: #ffe6ee;
+    column-count: 3;
+    column-fill:
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 80px;
+    font-size: 45px;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #ffe6ee;
+
+}
+
+div#irene1 {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  filter: drop-shadow(8px 8px 10px gray) grayscale(100%);
+  transform: rotate(5deg);
+  transition: filter .5s;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+div#irene2 {
+  position: absolute;
+  left: 20px;
+  top: 1050px;
+  filter: drop-shadow(8px 8px 10px gray) grayscale(100%);
+  transform: rotate(5deg);
+  transition: filter .5s;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+div#irene1:hover {
+  filter: drop-shadow(8px 8px 10px gray) grayscale(0%);
+}
+
+div#irene2:hover {
+  filter: drop-shadow(8px 8px 10px gray) grayscale(0%);
+}
+
+a {
+    color: black;
+    font-size: 100%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+a:hover {
+    color: #ffe6ee;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    margin-right: 100%;
+    width: 300%;
+}
