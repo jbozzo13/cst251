@@ -1,0 +1,39 @@
+header {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+section {
+  border: 1px solid;
+}
+
+nav {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+aside {
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  clear: both;
+}
+
+footer {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  clear: both;
+
+}

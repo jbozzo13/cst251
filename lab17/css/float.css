@@ -1,0 +1,53 @@
+header {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 30px;
+  border: 1px solid;
+  float: left;
+}
+
+main {
+  display: inline-block;
+  width: auto;
+  height: 430px;
+  padding: 20px;
+  border: 1px solid;
+  float: left;
+  clear: both;
+}
+
+section {
+
+  border: 1px solid;
+
+}
+
+nav {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  border: 1px solid;
+  float: right;
+}
+
+aside {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  border: 1px solid;
+  float: left;
+  clear: both;
+}
+
+footer {
+  display: inline-block;
+  width: auto;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid;
+  float: left;
+  clear: both;
+}
