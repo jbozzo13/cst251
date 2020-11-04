@@ -53,3 +53,8 @@ a {
 a:hover {
     color: pink;
 }
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+}
