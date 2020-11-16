@@ -1,0 +1,43 @@
+div#content {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    margin: auto;
+    color: grey;
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    color: black;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+div#sketches {
+  display: flex;
+  flex-direction: row;
+}
+
+div#sketches2 {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+    color: grey;
+    font-size: 100%;
+    font-weight: bolder;
+    text-align: center;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+@media screen and (max-width: 600px) {
+  div#sketches, div#sketches2 {
+    flex-direction: column;
+  }
